@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Clock!",
+  "description": "Need the time on the go, fret no more. With 'Clock!' you get the time where you are, when you are.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
